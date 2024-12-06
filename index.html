@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Adivina el Numero!!</title>
+</head>
+<body>
+    <h1>Adivina el Numero</h1>
+    <p>Introduce un numero del 1 al 100:</p>
+    <input type="number" id="numeroEntrante">
+    <button onclick="comprobarNumero()">Comprobar</button>
+    <p>Juega!!</p>
+    <h4>Cantidad de Intentos</h4>
+    <h6 id="intentos">0</h6>
+
+    <p id="mensaje"></p>
+    <pi id="volverJugar" style="visibility: hidden;">Volver a Jugar?</pi>
+    <button id="boton" onclick="window.location.reload()" style="visibility:hidden;">GO!!</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
